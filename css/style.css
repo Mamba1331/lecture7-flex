@@ -21,7 +21,30 @@ ul{
 .list-a{
     font-size: 20px;
     color: #3D37F1;
+    font-family: 'Lato', sans-serif;
 }
 /*end header*/
-
+.section-h2{
+    font-size: 70px;
+    color: #534D4D;
+    font-family: 'Lato', sans-serif;
+}
+.section-h3{
+    font-size: 20px;
+    color: #534D4D;
+    font-family: 'Lato', sans-serif;
+}
+.section-button{
+    width: 150px;
+    height: 50px;
+    background-color: #3D37F1;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-button::before{
+    content: url(../images/waving-hand.svg);
+}
 
