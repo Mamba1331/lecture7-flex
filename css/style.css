@@ -1,0 +1,25 @@
+.nav-container{
+    position: relative;
+}    
+.logo{
+    position: absolute;
+    left: 200px;
+    top: 70px;
+}
+.list{
+    width: 600px;
+    position: absolute;
+    left: 900px;
+    top: 93px;
+} 
+ul{
+    display: flex;
+    justify-content: space-between; 
+}
+.list-a{
+    font-size: 20px;
+    color: #3D37F1;
+}
+/*end header*/
+
+
