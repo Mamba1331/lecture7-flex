@@ -88,11 +88,30 @@ ul{
 /*end second section text task*/
 /*start cards*/
 .first-three-card-div{
-
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
 }
 .top-first-card{
     width: 350px;
     height: 430px;
     background-color: #FBBA77;
-
 }
+.top-first-card-h3{
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.top-first-card-p-div{
+    width: 260px;
+}
+.click-div{
+    width: 100px;
+    height: 35px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
