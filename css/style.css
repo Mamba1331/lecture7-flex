@@ -28,6 +28,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 300px;
 }
 .section-left-half{
     margin-top: 300px;
@@ -65,9 +66,14 @@ ul{
 }
 /*end first section*/
 /* start second scrtion */
+.second-section-info-div{
+    margin-left: 670px;
+    margin-bottom: 100px;
+}
 .second-section-div-h3{
     font-size: 18px;
     color: #3D37F1;
+    padding-left: 210px;
     margin-bottom: 25px;
     font-family: 'Lato', sans-serif;
 }
@@ -91,17 +97,109 @@ ul{
     width: 1200px;
     display: flex;
     justify-content: space-between;
+    margin-left: 350px;
+    margin-bottom: 50px;
 }
 .top-first-card{
     width: 350px;
     height: 430px;
     background-color: #FBBA77;
+    position: relative;
 }
-.top-first-card-h3{
+.card-img{
+    position: absolute;
+    left: 115px;
+    top: 80px;
+}
+.top-card-h3{
     font-size: 22px;
     color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 115px;
+    top: 230px;
 }
-.top-first-card-p-div{
+.top-card-p-div{
+    position: absolute;
+    left: 60px;
+    top: 300px;
+    width: 260px;
+}
+.card-text{
+    color: #FFFFFF;
+    font-size: 14px;
+}
+.click-div{
+    width: 100px;
+    height: 35px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 115px;
+    top: 370px;
+}
+/*end first card*/
+/* start secondcard*/
+.first-three-card-div{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-second-card{
+    width: 350px;
+    height: 430px;
+    background-color: #41EAE3;
+    position: relative;
+} 
+/*end second card*/
+/* start third card*/
+.first-three-card-div{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-third-card{
+    width: 350px;
+    height: 430px;
+    background-color: #69529F;
+    position: relative;
+}
+/*end top cards*/
+/*start bottom cards*/
+.second-three-card-div{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 350px;
+    margin-bottom: 50px;
+}
+.bottom-first-card{
+    width: 350px;
+    height: 430px;
+    background-color: #4386D2;
+    position: relative;
+}
+.card-img{
+    position: absolute;
+    left: 115px;
+    top: 80px;
+}
+.bottom-card-h3{
+    font-size: 22px;
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    left: 115px;
+    top: 230px;
+}
+.bottom-card-p-div{
+    position: absolute;
+    left: 60px;
+    top: 300px;
     width: 260px;
 }
 .click-div{
@@ -113,5 +211,35 @@ ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    left: 115px;
+    top: 370px;
 }
+/*end first card*/
+/* start secondcard*/
+.second-three-card-div{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-second-card{
+    width: 350px;
+    height: 430px;
+    background-color: #A5A2F6;
+    position: relative;
+} 
+/*end second card*/
+/* start third card*/
+.first-three-card-div{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom-third-card{
+    width: 350px;
+    height: 430px;
+    background-color: #FF8088;
+    position: relative;
+}
+
     
